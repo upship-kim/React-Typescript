@@ -39,3 +39,10 @@ Greetings.defaultProps = {
 
 export default Greetings; 
 
+
+
+//정리 
+
+//1. React.FC는 별로 좋지 않다 ~ 
+//2. 함수형 컴포넌트를 화살표 함수로 작성해도 되고, function 키워드를 사용해도 된다. 
+//3. props에 대한 타입을 설정할떄는 interface 또는 type을 사용하면 되고, 둘중 하나로 일관성을 지켜라 
