@@ -5,12 +5,12 @@ import Greetings from './GreetingsProps';
 
 function App() {
   const onClick = (name:string) => {
-    console.log(`hello, ${name}!`);
+    console.log(`Button saying, 'hello, ${name}!'`);
   }
   return (
     <div>
-      <Greetings name='upship' option='Typescript & React'
-      onClick={onClick}
+      <Greetings name='coffee' onClick={onClick}
+      option='welcome, place in React with Typescript'
       />
     </div>
   );
